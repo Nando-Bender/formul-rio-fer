@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+<title>Livro</title>
+
+</head>
+<body>
+
+    <h1>Ficha de inscrição para livros</h1>
+
+ <form>
+
+<div class="Formulario">
+
+<label for="titulo do livro">Titulo do livro</label>
+<input type="text" id="titulo do livro" class="input-padrao" required>
+
+<label for="nome do autor">Nome do autor</label>
+<input type="text" id="nome do autor" class="input-padrao" required>
+
+<label for="nome da editora">Nome da editora</label>
+<input type="text" id="nome da editora" class="input-padrao" required>
+
+<label for="personagem principal">Personagem principal</label>
+<input type="text" id="personagem principal" class="input-padrao" required>
+
+<label for="mensagem">História</label>
+<textarea cols="70" rows="10" id="mensagem"></textarea class="input-padrao" required>
+
+<fieldset>
+
+<legend>Qual o genêro do livro?</legend>
+<label for="radio-comédia"> <input type="radio" name="contato" value="comédia" id="radio-comédia">Comédia </label>
+<label for="radio-terror"> <input type="radio" name="contato" value="terror" id="radio-terror">Terror</label>
+<label for="radio-romance"> <input type="radio" name="contato" value="romance" id="radio-romance">Romance</label>
+
+</fieldset>
+
+<fieldset>
+
+    <legend>Qual o tipo da capa?</legend>
+    <select>
+        <option>Dura</option>
+        <option>Mole</option>
+    </select>
+
+</fieldset>
+
+<label class="checkbox"> <input type="checkbox" checked>Gostaria de receber seu livro por correio?</label>
+
+<input type="submit" value="Enviar formulario">
+
+</div>
+
+ </form>
+ <img src="caveira.jpg" alt="">
+</body>
+</html>
